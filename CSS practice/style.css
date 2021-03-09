@@ -1,15 +1,19 @@
+body {
+  justify-content: center;
+  text-align: center;
+}
+
 .row {
   display: flex;
-  height: 500px;
-  align-items: center;
+  justify-content: center;
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   border: 1px solid #000000;
   margin: 1rem;
   padding: 1rem;
-}
-
-.bottom {
-  align-self: flex-end;
+  max-width: 200px;
+  justify-content: space-between;
 }
