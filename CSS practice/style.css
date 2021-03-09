@@ -6,6 +6,7 @@ body {
 .row {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -16,4 +17,8 @@ body {
   padding: 1rem;
   max-width: 200px;
   justify-content: space-between;
+}
+
+.card p {
+  flex-grow: 1;
 }
