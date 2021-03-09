@@ -6,7 +6,6 @@ body {
 .row {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .card {
@@ -21,4 +20,14 @@ body {
 
 .card p {
   flex-grow: 1;
+}
+
+.card .thumbnail {
+  position: relative;
+}
+
+.card .remove {
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
